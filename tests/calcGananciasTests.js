@@ -3,8 +3,8 @@
 var expect = require('chai').expect;
 var CalcGanancias = require('../index');
 
-describe('#CalcGanancias.calculate', function() {
-    it('should return no taxes if salary is 0', function() {
+describe('#CalcGanancias.calculate', function () {
+    it('should return no taxes if salary is 0', function () {
 
         var options = {
             sueldoBruto: 0,
@@ -14,8 +14,8 @@ describe('#CalcGanancias.calculate', function() {
             isConyuje: false,
             isJubilado: false,
             isPatagonico: false
-          }
-        
+        }
+
         var calcGanancias = new CalcGanancias();
         var result = calcGanancias.calculate(options);
 
@@ -26,7 +26,7 @@ describe('#CalcGanancias.calculate', function() {
         expect(result.netBaseSalary).to.equal(0);
     });
 
-    it('should return no taxes if salary is 10000 and net salary has to be 8300', function() {
+    it('should return no taxes if salary is 10000 and net salary has to be 8300', function () {
 
         var options = {
             sueldoBruto: 10000,
@@ -36,8 +36,8 @@ describe('#CalcGanancias.calculate', function() {
             isConyuje: false,
             isJubilado: false,
             isPatagonico: false
-          }
-        
+        }
+
         var calcGanancias = new CalcGanancias();
         var result = calcGanancias.calculate(options);
 
@@ -48,7 +48,7 @@ describe('#CalcGanancias.calculate', function() {
         expect(result.netBaseSalary).to.equal(8300);
     });
 
-    it('should return no taxes if salary is 10000 and net salary has to be 9400 if is jubilado', function() {
+    it('should return no taxes if salary is 10000 and net salary has to be 9400 if is jubilado', function () {
 
         var options = {
             sueldoBruto: 10000,
@@ -58,8 +58,8 @@ describe('#CalcGanancias.calculate', function() {
             isConyuje: false,
             isJubilado: true,
             isPatagonico: false
-          }
-        
+        }
+
         var calcGanancias = new CalcGanancias();
         var result = calcGanancias.calculate(options);
 

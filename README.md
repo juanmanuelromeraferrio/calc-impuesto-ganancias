@@ -30,7 +30,7 @@ calcGanancias.calculate(options);
 var result = {
     anualTax: '2880.85',
     monthlyTax: '240.07',
-    taxRate: '0.60%,
+    taxRate: '0.60%',
     marginalTaxRate: '9,00%',
     netBaseSalary: 32960
 };
