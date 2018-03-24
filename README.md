@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/juanmanuelromeraferrio/calc-impuesto-ganancias.svg?branch=master)](https://travis-ci.org/juanmanuelromeraferrio/calc-impuesto-ganancias)
 [![Coverage Status](https://coveralls.io/repos/github/juanmanuelromeraferrio/calc-impuesto-ganancias/badge.svg?branch=master)](https://coveralls.io/github/juanmanuelromeraferrio/calc-impuesto-ganancias?branch=master)
+
 Calculadora Impuesto a las Ganancias Argentina
 =========
 
