@@ -3,9 +3,9 @@ Calculadora Impuesto a las Ganancias Argentina
 
 Biblioteca que permite calcular cuanto es el monto retenido por el impuesto a las ganancias.
 
-## Installation
+## Install
 
-  `npm install @jdaudier/number-formatter`
+    npm install calc-impuesto-ganancias
 
 ## Usage
 
@@ -37,9 +37,6 @@ var result = {
 
 
 ```
-## Install
-
-    npm install calc-impuesto-ganancias
     
 ## Tests
 
