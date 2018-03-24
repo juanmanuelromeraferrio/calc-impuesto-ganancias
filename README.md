@@ -15,7 +15,7 @@ Biblioteca que permite calcular cuanto es el monto retenido por el impuesto a la
 var CalcGanancias = require('calc-impuesto-ganancias');
 
 var options = {
-    sueldoBruto: 4000,
+    sueldoBruto: 40000,
     alquiler: 0,
     creditoHipotecario: 0,
     cantHijos: 0,
