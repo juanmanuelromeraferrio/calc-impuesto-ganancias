@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build-debug": "browserify index.js -d --s calc-ganancias > dist/calc-ganancias.browserify.js",
+    "build-min": "browserify index.js --s calc-ganancias | uglifyjs -c > dist/calc-ganancias.min.js",
+    "build": "npm run build-debug && npm run build-min",
     "test": "mocha tests --recursive",
     "cover": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec ./tests/*.js"
   },
