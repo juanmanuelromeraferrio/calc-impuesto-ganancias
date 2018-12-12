@@ -1,0 +1,26 @@
+{
+  "topesEscalas": [
+    33040,
+    66080,
+    99119,
+    132159,
+    198239,
+    264318,
+    396478,
+    528637,
+    99999999
+  ],
+  "porcentajesEscales": [0.05, 0.09, 0.12, 0.15, 0.19, 0.23, 0.27, 0.31, 0.35],
+  "minimoNoImponible": 85848.99,
+  "adicional4taCategoria": 412075.14,
+  "coyuje": 80033.97,
+  "hijo": 40361.43,
+  "topeAportes": 16598.31,
+  "topeJubilado": 670255.2,
+  "topeAlquiler": 85848.99,
+  "topeHipotecario": 20000,
+  "porcentajeAlquiler": 0.4,
+  "porcentajePatagonico": 1.22,
+  "aportesJubilados": 0.06,
+  "aportesNoJubilados": 0.17
+}
