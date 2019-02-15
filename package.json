@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/juanmanuelromeraferrio/calc-impuesto-ganancias#readme",
   "dependencies": {
-    "lodash": "^4.17.5",
+    "lodash": "^4.17.11",
     "lodash.defaults": "^4.2.0",
     "lodash.flowright": "^3.5.0",
     "lodash.foreach": "^4.5.0"
